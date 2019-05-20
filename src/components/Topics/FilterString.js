@@ -26,7 +26,7 @@ export default class FilterString extends Component{
     render(){
         return(
             <div>
-                <h4 className="puzzleBox evenAndOddPB">
+                <h4 className="puzzleBox filterStringPB">
                 FilterString
                     <span className="resultsBox">
                         {JSON.stringify(this.state.unFilteredArray)}
